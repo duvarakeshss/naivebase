@@ -27,4 +27,5 @@ jobs:
         pip install streamlit pandas scikit-learn numpy
     - name: deploy
       run: |
-        python -m streamlit run naivebase.py
+        python -m streamlit run naivebase.py --server.port $PORT
+
