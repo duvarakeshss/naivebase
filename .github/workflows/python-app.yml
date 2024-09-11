@@ -27,5 +27,7 @@ jobs:
         pip install streamlit pandas scikit-learn numpy
     - name: deploy
       run: |
-        python -m streamlit run naivebase.py --server.host mdaashir.github.io
+        python -m streamlit run naivebase.py
+      env:
+          STREAMLIT_SERVER_PORT: 8501
 
