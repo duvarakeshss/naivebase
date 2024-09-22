@@ -1,1 +1,1 @@
-# naivebase
+# naive bayes
